@@ -1,0 +1,68 @@
+.facebookQR {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 1px solid #e0e0e0; /* Light gray border */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle gray border shadow */
+  padding: 20px; /* Adjust padding as needed */
+  /* border: 2px solid black; */
+}
+
+.information {
+  /* margin-top: 60px; */
+  font-size: 30px;
+  /* color: blue; */
+}
+
+.facebookQRHero {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.facebookQRHero input {
+  width: 500px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 0 10px;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.facebookQRHero button {
+  height: 35px;
+  border-radius: 8px;
+  width: 150px;
+}
+
+.facebookQRcode {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.QRcode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.QRCode {
+  border: 2px solid blue;
+}
+
+.generateQRCode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.generateQRCode button {
+  margin-top: 20px;
+  height: 35px;
+  border-radius: 8px;
+  width: 200px;
+}
