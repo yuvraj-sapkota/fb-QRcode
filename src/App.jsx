@@ -7,6 +7,7 @@ import FacebookQr from "./components/FacebookQR";
 
 function App() {
   const [openFacebook, setOpenFacebook] = useState(true);
+  // const[openInstagram, setOpenInstagram] = useState(true)
 
   return (
     <div>

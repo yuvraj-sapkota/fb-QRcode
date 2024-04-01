@@ -14,12 +14,9 @@
   margin: 0 auto;
   /* border: 2px solid black; */
 }
-.item {
-}
 
-@media  screen and (max-width:770px) {
-  .header{
-    border: 2px solid pink;
+@media screen and (max-width: 800px) {
+  .header {
     text-align: center;
     width: 500px;
   }

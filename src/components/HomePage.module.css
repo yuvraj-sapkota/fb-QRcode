@@ -64,34 +64,29 @@
   /* Styles for screens smaller than 768px (typically mobile devices) */
 
   .socialMedia {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 800px) {
   /* Styles for screens smaller than 768px (typically mobile devices) */
 
   .homePage {
-border: 2px solid red;
-width: 500px;
-margin: 0px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-    
-    
+    width: 500px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
-  .information{
-    border: 2px solid aqua;
+  .information {
     width: 400px;
+    margin-bottom: 10px;
   }
- 
-  .socialMedia{
-    border: 2px solid greenyellow;
+
+  .socialMedia {
     width: 400px;
   }
 }
