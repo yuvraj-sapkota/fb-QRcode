@@ -2,22 +2,36 @@
   width: 800px;
   margin: 0 auto;
   margin-top: 20px;
-  border: 1px solid #e0e0e0; /* Light gray border */
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle gray border shadow */
-  padding: 20px; /* Adjust padding as needed */
-  /* border: 2px solid black; */
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
 }
 
-.information {
-  /* margin-top: 60px; */
-  font-size: 30px;
-  /* color: blue; */
+button:hover {
+  background-color: rgb(172, 172, 172);
+  color: white;
+  font-size: 15px;
+}
+
+.facebookQR button {
+  height: 38px;
+  border-radius: 8px;
+  width: 150px;
 }
 
 .facebookQRHero {
   margin-top: 30px;
   display: flex;
   justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+}
+.facebookQRHeroInformation {
+  font-size: 15px;
+}
+.facebookQRHeroInputField {
+  margin-top: 40px;
+  display: flex;
   align-items: center;
 }
 
@@ -31,7 +45,7 @@
 }
 
 .facebookQRHero button {
-  height: 35px;
+  height: 38px;
   border-radius: 8px;
   width: 150px;
 }
@@ -42,6 +56,10 @@
   justify-content: center;
 }
 
+.error {
+  color: red;
+  margin-top: 20px;
+}
 .QRcode {
   display: flex;
   align-items: center;
@@ -65,4 +83,11 @@
   height: 35px;
   border-radius: 8px;
   width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles for screens smaller than 768px (typically mobile devices) */
+
+  
+
 }
