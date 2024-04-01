@@ -16,3 +16,11 @@
 }
 .item {
 }
+
+@media  screen and (max-width:770px) {
+  .header{
+    border: 2px solid pink;
+    text-align: center;
+    width: 500px;
+  }
+}

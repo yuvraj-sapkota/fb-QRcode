@@ -73,10 +73,25 @@
 @media screen and (max-width: 770px) {
   /* Styles for screens smaller than 768px (typically mobile devices) */
 
-  .information {
-    width: 500px;
+  .homePage {
+border: 2px solid red;
+width: 500px;
+margin: 0px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+    
+    
   }
-  .socialMedia {
-    width: 500px;
+
+  .information{
+    border: 2px solid aqua;
+    width: 400px;
+  }
+ 
+  .socialMedia{
+    border: 2px solid greenyellow;
+    width: 400px;
   }
 }

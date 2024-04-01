@@ -88,6 +88,8 @@ button:hover {
 @media screen and (max-width: 768px) {
   /* Styles for screens smaller than 768px (typically mobile devices) */
 
-  
+  .facebookQR{
+    width: 600px;
+  }
 
 }
