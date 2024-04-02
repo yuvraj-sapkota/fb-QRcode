@@ -23,7 +23,6 @@ function App() {
       ) : (
         <YoutubeQR setOpenFacebook={setOpenFacebook} />
       )}
-      <Footer />
     </div>
   );
 }
