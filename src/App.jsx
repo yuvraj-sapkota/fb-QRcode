@@ -6,7 +6,6 @@ import HomePage from "./components/HomePage";
 import FacebookQr from "./components/FacebookQR";
 import InstagramQR from "./components/InstagramQR";
 import YoutubeQR from "./components/YoutubeQR";
-import Footer from "./components/Footer";
 
 function App() {
   const [openFacebook, setOpenFacebook] = useState(null);
