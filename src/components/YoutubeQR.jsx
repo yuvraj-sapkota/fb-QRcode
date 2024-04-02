@@ -5,7 +5,7 @@ import * as htmlToImage from "html-to-image";
 
 import { saveAs } from "file-saver";
 
-function FacebookQr({ setOpenFacebook }) {
+function YoutubeQR({ setOpenFacebook }) {
   const [profileLink, setProfileLink] = useState("");
   const [qrCodeData, setQRCodeData] = useState("");
 
@@ -13,7 +13,7 @@ function FacebookQr({ setOpenFacebook }) {
 
   const generateQRCode = () => {
     if (!isValidUrl(profileLink)) {
-      setError("Invalid URL. Please enter a valid Facebook profile link.");
+      setError("Invalid URL. Please enter a valid Youtube profile link.");
       return;
     }
 
@@ -23,8 +23,8 @@ function FacebookQr({ setOpenFacebook }) {
   };
 
   const isValidUrl = (url) => {
-    // Check if the URL contains "facebook" or "facebook.com"
-    return /facebook(\.com)?/i.test(url);
+    // Check if the URL contains "youtube" or "youtube.com"
+    return /youtube(\.com)?/i.test(url);
   };
 
   const handleDownload = () => {
@@ -56,17 +56,17 @@ function FacebookQr({ setOpenFacebook }) {
         <div className={styled.facebookQRHero}>
           <div className={styled.facebookQRHeroInformation}>
             <span>
-              <h4> Please enter your Facebook profile link below: </h4>
+              <h4> Please enter your Youtube profile link below: </h4>
             </span>
             to generate a personalized QR code. This QR code will allow others
-            to easily connect with you on Facebook. Simply paste your profile
+            to easily connect with you on Youtube. Simply paste your profile
             link in the provided field and click 'Generate QR Code' to create
             your personalized QR code.
           </div>
           <div className={styled.facebookQRHeroInputField}>
             <input
               type="text"
-              placeholder="Enter Facebook Profile Link"
+              placeholder="Enter Youtube Profile Link"
               value={profileLink}
               onChange={(e) => setProfileLink(e.target.value)}
             />
@@ -93,4 +93,4 @@ function FacebookQr({ setOpenFacebook }) {
   );
 }
 
-export default FacebookQr;
+export default YoutubeQR;

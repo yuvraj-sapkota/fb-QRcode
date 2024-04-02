@@ -85,6 +85,10 @@ button:hover {
   width: 200px;
 }
 
+.code {
+  border: 2px solid rgb(255, 255, 255);
+}
+
 @media screen and (max-width: 800px) {
   /* Styles for screens smaller than 768px (typically mobile devices) */
 
