@@ -23,8 +23,8 @@ function YoutubeQR({ setOpenFacebook }) {
   };
 
   const isValidUrl = (url) => {
-    // Check if the URL contains "youtube" or "youtube.com"
-    return /youtube(\.com)?/i.test(url);
+    // Check if the URL contains "youtube", "youtube.com", or "youtu.be"
+    return /youtube(\.com)?|youtu\.be/i.test(url);
   };
 
   const handleDownload = () => {
